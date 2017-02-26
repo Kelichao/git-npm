@@ -6,3 +6,5 @@
 - [传文件到github](http://www.jianshu.com/p/08656eb84974)
 
 - [git图文教程](http://blog.sina.com.cn/s/blog_157ba6f0e0102wvmv.html)
+
+- [git图文教程2](http://www.cnblogs.com/tugenhua0707/p/4050072.html)
