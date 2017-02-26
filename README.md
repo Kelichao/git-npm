@@ -8,13 +8,16 @@
 
 
 # 命令行常用命令
+
 - mkdir learngit# 创建learngit文件夹
 - cd learngit# 从版本库文件夹进入到learngit文件夹
 - pwd# pwd命令用于显示当前目录
 - rm aaa.txt# 删除目录中的文件
 
 # 普通git命令
+
 >  配置全局git
+
 - git config --global user.name "Kelichao" # 设置名字
 - git config --global user.email "961904564@qq.com"# 设置git邮箱
 - git config --global user.name #  取得名字->Kelichao
@@ -30,6 +33,7 @@
 - git log   #显示日志列表
 - git git log --pretty=oneline #显示简洁版的日志
 - git rm XX          删除XX文件
+
 > 回退操作
 
 - git reset  --hard HEAD^ #回退到前一次
@@ -52,12 +56,12 @@
 -  git checkout –b dev  创建dev分支 并切换到dev分支上
 -   git branch  查看当前所有的分支
 -   git checkout master 切换回master分支
- -  git merge dev    在当前的分支上合并dev分支
+-  git merge dev    在当前的分支上合并dev分支
 -   git branch –d dev 删除dev分支
- -  git branch name  创建分支
- -  git stash 把当前的工作隐藏起来 等以后恢复现场后继续工作
- -  git stash list 查看所有被隐藏的文件列表
- -  git stash apply 恢复被隐藏的文件，但是内容不删除
+-  git branch name  创建分支
+-  git stash 把当前的工作隐藏起来 等以后恢复现场后继续工作
+-  git stash list 查看所有被隐藏的文件列表
+-  git stash apply 恢复被隐藏的文件，但是内容不删除
 -   git stash drop 删除文件
 -   git stash pop 恢复文件的同时 也删除文件
 -   git remote 查看远程库的信息
