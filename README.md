@@ -46,6 +46,7 @@
 > 与github代码库之间的联系
 
 - git clone git@github.com:Kelichao/gittest.git# 克隆该站点的代码到本地
+- git clone -b testmdev git@github.com:Kelichao/gittest.git# 克隆分支testmdev代码到本地
 - git remote rm origin #删除之前的远程Git仓库连接
 - git remote add origin git@github.com:Kelichao/gittest.git# 链接到对应代码库
 - git push –u(第一次要用-u 以后不需要) origin master # 把当前master分支推送到远程库
