@@ -44,7 +44,7 @@
 - git checkout  --  readme.txt #撤销文件在工作区的修改全部撤销。
 
 > 与github代码库之间的联系
-
+**注意：下载代码也是需要ssh证书注册的**
 - git clone git@github.com:Kelichao/gittest.git# 克隆该站点的代码到本地
 - git clone -b testmdev git@github.com:Kelichao/gittest.git# 克隆分支testmdev代码到本地
 - git remote rm origin #删除之前的远程Git仓库连接
