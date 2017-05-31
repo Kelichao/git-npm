@@ -9,21 +9,24 @@
 
 # 命令行常用命令
 ```bash
- #列出文件目录
+# 列出文件目录
 ls
-
+# 切换目录
+cd
 # 创建learngit文件夹
 mkdir learngit
-
+# 删除一个空的目录
+rmdir
 # 从版本库文件夹进入到learngit文件夹
 cd learngit 
-
 # pwd命令用于显示当前目录
 pwd  
-
 # 删除目录中的文件
 rm aaa.txt
-
+# 复制文件或目录
+cp
+# 移除文件或目录
+rm
 ```
 
 # 普通git命令
