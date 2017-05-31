@@ -8,11 +8,23 @@
 
 
 # 命令行常用命令
+```bash
+ #列出文件目录
+ls
 
-- mkdir learngit# 创建learngit文件夹
-- cd learngit# 从版本库文件夹进入到learngit文件夹
-- pwd# pwd命令用于显示当前目录
-- rm aaa.txt# 删除目录中的文件
+# 创建learngit文件夹
+mkdir learngit
+
+# 从版本库文件夹进入到learngit文件夹
+cd learngit 
+
+# pwd命令用于显示当前目录
+pwd  
+
+# 删除目录中的文件
+rm aaa.txt
+
+```
 
 # 普通git命令
 
