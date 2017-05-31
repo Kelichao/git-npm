@@ -13,6 +13,10 @@
 ls
 # 切换目录
 cd
+# 返回上一级目录，中间有空格
+cd ..
+# 返回根目录
+cd /
 # 创建learngit文件夹
 mkdir learngit
 # 删除一个空的目录
